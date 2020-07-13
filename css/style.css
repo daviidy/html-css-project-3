@@ -15,7 +15,49 @@ body{
   color: #fff;
   padding: 2rem;
 }
+.form-container{
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  color: #fff;
+  padding: 2rem;
+}
 
 #title{
 
+}
+label{
+  display: block
+}
+.input{
+  padding: 10px 0px;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px
+}
+
+#dropdown{
+  padding: 10px 20px;
+  width: 100%;
+  display: block;
+  margin-bottom: 10px
+}
+textarea{
+  width: 100%
+}
+
+#submit{
+  padding: 10px 20px;
+  text-align: center;
+  background: green;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin-top: 10px;
+  width: 100%;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  
 }

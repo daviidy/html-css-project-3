@@ -24,28 +24,43 @@
         culpa qui officia deserunt mollit anim id est laborum.
       </p>
     </div>
+    <br>
+    <div class="form-container">
     <form id="survey-form">
       <label for="name" id="name-label">Enter your name</label>
-      <input placeholder="Eg: Dave" type="text" required id="name" name="">
+      <input  class="input" placeholder="Eg: Dave" type="text" required id="name" name="">
+      <br>
       <label for="email" id="email-label">Enter your email</label>
-      <input placeholder="Eg: yaodavidarmel@gmail.com" id="email" type="email" name="" value="" required>
+      <input  class="input" placeholder="Eg: yaodavidarmel@gmail.com" id="email" type="email" name="" value="" required>
       <label for="number" id="number-label">Enter your age</label>
-      <input placeholder="Eg: 77" type="number" id="number" required min="0" max="100" name="">
-      <select id="dropdown">
+      <input  class="input" placeholder="Eg: 77" type="number" id="number" required min="0" max="100" name="">
+      <br>
+      <select class="input" id="dropdown">
         <option>Option 1</option>
         <option>Option 2</option>
       </select>
+      <hr>
+
       <input type="radio" name="groupone" value="1"> Radio 1 - Group 1 <br>
       <input type="radio" name="groupone" value="2"> Radio 2 - Group 1 <br>
+      <hr>
       <input type="radio" name="grouptwo" value="1"> Radio 1 - Group 1 <br>
       <input type="radio" name="grouptwo" value="2"> Radio 2 - Group 1 <br>
+      <hr>
+
       <input type="checkbox" name="checkboxone" value="true"> Checkbox 1 <br>
       <input type="checkbox" name="checkboxtwo" value="false"> Checkbox 2 <br>
       <input type="checkbox" name="checkboxthree" value="false"> Checkbox 3 <br>
+      <hr>
+
       <label for="textarea">Add additional comments</label><br>
-      <textarea name="textarea" id="textarea" rows="8" cols="80">
-        Add your comments here...
+      <textarea name="textarea" id="textarea" rows="8" cols="80">Add your comments here...
       </textarea>
+      <br>
+      <button type="submit" id="submit">
+        Submit
+      </button>
     </form>
+    </div>
   </body>
 </html>
