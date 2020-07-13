@@ -22,9 +22,12 @@
       culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <form id="survey-form">
-      <input type="text" required id="name" name="">
-      <input id="email" type="email" name="" value="" required>
-      <input type="number" id="number" required min="0" max="100" name="">
+      <label for="name" id="name-label">Enter your name</label>
+      <input placeholder="Eg: Dave" type="text" required id="name" name="">
+      <label for="email" id="email-label">Enter your email</label>
+      <input placeholder="Eg: yaodavidarmel@gmail.com" id="email" type="email" name="" value="" required>
+      <label for="number" id="number-label">Enter your age</label>
+      <input placeholder="Eg: 77" type="number" id="number" required min="0" max="100" name="">
     </form>
   </body>
 </html>
